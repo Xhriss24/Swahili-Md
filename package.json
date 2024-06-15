@@ -1,22 +1,20 @@
 {
-  "name": "QUEEN-ELISA-MD",
+  "name": "swahili-md",
   "version": "3.9.7",
-  "description": "Queen Elisa Whatsapp Bot is Baileys Web base Whatsapp 3rd Party Module.",
+  "description": "swahili Whatsapp Bot is Baileys Web base Whatsapp.",
   "type": "commonjs",
   "scripts": {
     "start": "node --max_old_space_size=8192 lib/runner/index.js"
   },
   "keywords": [
-    "termux-bot",
     "whatsapp",
-    "2023",
+    "2024",
     "baileys-md",
     "bot-md",
-    "multi-device",
-    "dark-maker-ofc"
+    "multi-device"
   ],
-  "author": "MR-NIMA",
-  "license": "AGPL-3",
+  "author": "MR-XHRISS",
+  "license": "MIT license",
   "dependencies": {
     "@adiwajshing/baileys" : "github:WhiskeySockets/Baileys#master",
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -89,10 +87,10 @@
     "src": "src"
   },
   "devDependencies": {},
-  "repository": "git+https://github.com/DarkMakerofc/QUEEN-ELISA-MD.git",
+  "repository": "git+https://github.com/Xhriss24/swahili-md.git",
   "bugs": {
-    "url": "https://github.com/DarkMakerofc/QUEEN-ELISA-MD/issues"
+    "url": "https://github.com/Xhriss24/swahili-md/issues"
   },
-  "homepage": "https://github.com/DarkMakerofc/QUEEN-ELISA-MD/#readme",
+  "homepage": "https://github.com/Xhriss24/swahili-md/#readme",
   "main": "index.js"
 }
