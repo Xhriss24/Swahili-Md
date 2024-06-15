@@ -72,13 +72,13 @@ global.INBOX_BLOCK_MSG = 'blocked 🤖'
 //🚀 Owner React Imoji
 global.OWNER_REACT =  '💻'
 //🚀 Song Download Massage 
-global.SONG_DOWN = '```⬇️ Downloading Your Song...```' 
+global.SONG_DOWN = '```⬇️ Downloading Your Song..```' 
 //🚀 Song Uplode massage 
-global.SONG_UP = '```⬆️ Uploding Your Song...```'
+global.SONG_UP = '```⬆️ Uploding Your Song..```'
 //🚀 Menu imoji 
-global.MENU_IMOJI = '👸|ℹ️'
+global.MENU_IMOJI = '🤠|ℹ️'
 //🚀 Your time zone ( use correct time zone )
-global.TIME_ZONE = process.env.TIME_ZONE || 'Asia/Colombo'
+global.TIME_ZONE = process.env.TIME_ZONE || 'Africa/Dodoma'
 //🚀 Removebg Api key
 global.REMOVE_BG_API = 'apikey get on remoebg.com'
 //🚀 Change Bot Language 
@@ -96,15 +96,15 @@ global.GOODBYE = process.env.GOODBYE || ``
 //🚀 Good bye image
 global.GOODBYE_IMAGE = process.env.GOODBYE_IMAGE || ``
 //🚀 DISABLE PM Block numbers
-global.NO_BLOCK = ["94715166712","94719574492"]
+global.NO_BLOCK = ["255616064658"]
 //🚀 DISABLE download words
 global.IMG_BLOCKER = ["xxx","sex","mia"]
-//🚀 Open ai API Put Withouth "sk-" ( "sk-" අයින් කරල ඉතුරු ටික දාන්න )
+//🚀 Open ai API Put Withouth "sk-" 
 global.CHATGPT_API = ''
 //🚀 Sex  video Download Allowed Groups
 global.SEX_DOWNLOAD_GROUPS = ['120363147404508506@g.us']
 //🚀 Your Bot Group Link
-global.GROUP_LINK = 'https://chat.whatsapp.com/Ih1udrdBNvX5xSu5mUVdql'
+global.GROUP_LINK = 'https://chat.whatsapp.com/L7W9mOrPQH3LyRWmYV8dDj'
 /*
 
    🔥 OTHER 🔥
@@ -146,13 +146,13 @@ global.mess = {
 
 
 //other
-global.pemilik = ['94715166712'] //Change  it , ඔබට කැමති නම් වෙනස් කරන්න
-global.premium = ['94715166712'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
-global.pengguna = 'Dark Maker' // Your name ඔබේ නම 
+global.pemilik = ['255616064658']
+global.premium = ['255616064658'] 
+global.pengguna = 'MrXhriss' // 
 global.sessionName = 'session'
 global.prefix = ['#','!','.'] 
 global.sp = '👽'
-global.weem = 'QUEEN ELISA'
+global.weem = 'swahili md'
 
 global.limitawal = {
     premium: "Infinity", 
@@ -164,7 +164,7 @@ global.APIs = {
 	zenz: 'https://zenzapi.xyz', 
 }
 global.APIKeys = {
-	'https://zenzapi.xyz': '01ABEB1E11', //Kalau habis beli sendiri
+	'https://zenzapi.xyz': '01ABEB1E11',
 }
 
 //global.alivelogo = `https://telegra.ph/file/b3f17c16eedf99731a52d.jpg`
