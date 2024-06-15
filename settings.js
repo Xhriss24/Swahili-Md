@@ -84,7 +84,7 @@ global.REMOVE_BG_API = 'apikey get on remoebg.com'
 //🚀 Change Bot Language 
 global.LANG = 'EN'
 //Alive logo
-global.alivelogo = process.env.ALIVE_IMAGE || `https://telegra.ph/file/b3f17c16eedf99731a52d.jpg`
+global.alivelogo = process.env.ALIVE_IMAGE || `https://iili.io/d90GsOG.th.jpg`
 //🚀 Alive message
 global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || `default`
 //🚀 Welcome Mesaage
@@ -167,7 +167,7 @@ global.APIKeys = {
 	'https://zenzapi.xyz': '01ABEB1E11',
 }
 
-//global.alivelogo = `https://telegra.ph/file/b3f17c16eedf99731a52d.jpg`
+//global.alivelogo = `https://iili.io/d90GsOG.th.jpg`
 global.imgalive = fs.readFileSync('./Media/image/Elisa.jpg')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
