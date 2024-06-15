@@ -5,23 +5,23 @@ const chalk = require('chalk')
 /*
 ⚙️ BOT SETTINGS  ⚙️
 */
-//👇 if you need seen massage use " true " , මැසේජ් සීන් කරන්න ඔනි නම් true දාන්න ඔනි නැත්තම් false දාන්න
+//👇 if you need seen massage use " true "
 global.READ_MASSAGE = false
-//👇 enable DISABLE Girls Voice Reply , Auto Voice Reply යවන්න ඔනි නම් true දාන්න 
+//👇 enable DISABLE Girls Voice Reply ,
 global.VOICE_REPLY = false
-//👇 Do you want show time on your bio use "true" want DISABLE use "false" , ස්වයං ක්‍රීය Bio එක ඔනි නම් true දාන්න
+//👇 Do you want show time on your bio use "true" want DISABLE use "false" ,
 global.AUTO_BIO = false
-//👇 Inbox massage block PM block , ඉන්බොක් බ්ලොක් 
+//👇 Inbox massage block PM block ,
 global.INBOX_BLOCK = false
-//👇 Auto react  , ස්වයංක්‍රීය රියක්ට්
+//👇 Auto react  ,
 global.AUTO_REACT = false
-//👇 Bad word Auto delete ( you must add bad words ) නරක වචන ඩිලීට් කිරීම , ඔබ විසින් වචන දැමිය යුතුය 
+//👇 Bad word Auto delete ( you must add bad words )
 global.ANTI_BADWORD = false
-//👇 Kick And Auto Delete Group link Senders , ස්මූහ ස්බැදි දමන අයව ඉවත් කරයි
+//👇 Kick And Auto Delete Group link Senders ,
 global.ANTI_G_LINK = false
 //👇 212 Number block
 global.NUMBER_212_BLOCK = false
-//👇 Send Welcome ( true or false ) වෙල්කම් ගූඩ් බායි මැසේජ් යවන්න ඔනි නම් 
+//👇 Send Welcome ( true or false )
 global.SEND_WELCOME = false
 global.SEND_GOODBYE = false
 //👇 Send block command message (true or false )
@@ -34,15 +34,15 @@ global.BOT_OFFLINE = false
 global.ONLY_PREFIX = false
 //👇 This uplaod youtube videos without limit ⚠️ if you use this you must have paid sever
 global.UPLOAD_MAX = false
-//👇 Desabale Bot inbox ඉන්බොක්ස් බ්ලොක් නොවී වැඩ නොකරන්නනම් 
+//👇 Desabale Bot inbox 
 global.DISABLE_INBOX = false 
-//👇 DISABLE inbox message send ඉන්බොක්ස් වැඩනොකරන බවට මැසේජ් එක යැවිම true or false 
+//👇 DISABLE inbox message send true or false 
 global.DISABLE_INBOX_MESSAGE_SEND = false
 //👇 Pron Video Download 
 global.SEX_VIDEO_DOWNLOAD = false
 //👇 Only Inbox Use ( Only PM Work )
 global.INBOX_ONLY_WORK = false
-//👇 Auto ChatGPT ( You Must put CHATGPT API KEY For use this )
+//👇 Auto ChatGPT
 global.AUTO_OPEN_AI = false
 //👇 Bot On Privet
 global.PRIVET_BOT = false
@@ -50,7 +50,7 @@ global.PRIVET_BOT = false
 global.DISABLE_COMMANDS = false
 //👇 DISABLE Bot Commands On Message Send On Off
 global.DISABLE_COMMAND_MESSAGE_SEND = false 
-global.AUTO_SEEN_STATUS = true
+global.AUTO_SEEN_STATUS = false
 
 
 
@@ -58,59 +58,59 @@ global.AUTO_SEEN_STATUS = true
        ✨ BOT INFO SETTINGS ✨
 */
 // You Bots Owner Number 
-global.owner = ['94715166712'] 
-//👇 Your Caption ( Image Video )
-global.cap = '© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 𝚀𝚄𝙴𝙴𝙽 𝙴𝙻𝙸𝚂𝙰 ²⁰²³'
-//👇 Your Bot Name
-global.botnma =  '𝐐𝐔𝚵𝚵𝚴 𝚵𝐋𝚰𝐒𝚫 𝚳𝐃 3 𝛁' 
-//👇 Your name
-global.ownernma =  'ᴍ ʀ ⃞ ɴ ɪ ᴍ ᴀ' 
-//👇 Sticker Author Name
-global.packname =  '𝙼𝚁 𝙽𝙸𝙼𝙰 𝙾𝙵𝙲' 
-//👇 Inbox Block Massage 
-global.INBOX_BLOCK_MSG = 'BLOCK !!!'
-//👇 Owner React Imoji
+global.owner = ['255616064658'] 
+//🚀 Your Caption ( Image Video )
+global.cap = '© powered by Xhriss'
+//🚀 Your Bot Name
+global.botnma =  'swahili-md' 
+//🚀 Your name
+global.ownernma =  'MrXhriss' 
+//🚀 Sticker Author Name
+global.packname =  'mrxhriss' 
+//🚀 Inbox Block Massage 
+global.INBOX_BLOCK_MSG = 'blocked 🤖'
+//🚀 Owner React Imoji
 global.OWNER_REACT =  '💻'
-//👇 Song Download Massage 
+//🚀 Song Download Massage 
 global.SONG_DOWN = '```⬇️ Downloading Your Song...```' 
-//👇 Song Uplode massage 
+//🚀 Song Uplode massage 
 global.SONG_UP = '```⬆️ Uploding Your Song...```'
-//👇 Menu imoji 
+//🚀 Menu imoji 
 global.MENU_IMOJI = '👸|ℹ️'
-//👇 Your time zone ( use correct time zone )
+//🚀 Your time zone ( use correct time zone )
 global.TIME_ZONE = process.env.TIME_ZONE || 'Asia/Colombo'
-//👇 Removebg Api key
+//🚀 Removebg Api key
 global.REMOVE_BG_API = 'apikey get on remoebg.com'
-//👇 Change Bot Language 
+//🚀 Change Bot Language 
 global.LANG = 'EN'
 //Alive logo
 global.alivelogo = process.env.ALIVE_IMAGE || `https://telegra.ph/file/b3f17c16eedf99731a52d.jpg`
-//👇 Alive message
+//🚀 Alive message
 global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || `default`
-//👇 Welcome Mesaage
+//🚀 Welcome Mesaage
 global.WELCOME = process.env.WELCOME || ``
-//👇 welcome image 
+//🚀 welcome image 
 global.WELCOME_IMAGE = process.env.WELCOME_IMAGE || ``
-//👇 Goodbye message 
+//🚀 Goodbye message 
 global.GOODBYE = process.env.GOODBYE || ``
-//👇 Good bye image
+//🚀 Good bye image
 global.GOODBYE_IMAGE = process.env.GOODBYE_IMAGE || ``
-//👇 DISABLE PM Block numbers
+//🚀 DISABLE PM Block numbers
 global.NO_BLOCK = ["94715166712","94719574492"]
-//👇 DISABLE download words
+//🚀 DISABLE download words
 global.IMG_BLOCKER = ["xxx","sex","mia"]
-//👇 Open ai API Put Withouth "sk-" ( "sk-" අයින් කරල ඉතුරු ටික දාන්න )
+//🚀 Open ai API Put Withouth "sk-" ( "sk-" අයින් කරල ඉතුරු ටික දාන්න )
 global.CHATGPT_API = ''
-//👇 Sex  video Download Allowed Groups
+//🚀 Sex  video Download Allowed Groups
 global.SEX_DOWNLOAD_GROUPS = ['120363147404508506@g.us']
-//👇 Your Bot Group Link
+//🚀 Your Bot Group Link
 global.GROUP_LINK = 'https://chat.whatsapp.com/Ih1udrdBNvX5xSu5mUVdql'
 /*
 
-   🍃 OTHER 🍃
+   🔥 OTHER 🔥
 
 */
-global.PORT = process.env.PORT ||  '8000'
+global.PORT = process.env.PORT ||  '5000'
 global.zenzapi = '01ABEB1E11'
 /*
 
@@ -118,7 +118,7 @@ global.zenzapi = '01ABEB1E11'
 
 */
 global.mess = {
-    success: '✅ Done!',
+    success: 'Done!',
     admin: '*Only admins can use this command !*',
     botAdmin: '*Please admin the bot first !*',
     owner: '*Sorry, this command is only for the owner !*',
@@ -130,7 +130,7 @@ global.mess = {
     BLOCK_CMD_MSG : '*⚠️ This Command is Block By Owner*',
     IMG_BLOCK : "This Word is Ban from image downloader",
     DISABLE_INBOX : "Inbox DISABLE By Bot Owner Please Only Use Groups",
-    ONLY_SEX_GROUP : "Adult Video Download Only Allowed On This Group \n\n https://chat.whatsapp.com/JYAg2lMpRTF2bgkeFCxsvf",
+    ONLY_SEX_GROUP : "Adult Video Download Only Allowed On This Group \n\n https://chat.whatsapp.com/",
     DISABLE_CMD : "🚫 Commands Are DISABLE by owner",
     BAD_DETECT : '',
     BLOCK : '',
